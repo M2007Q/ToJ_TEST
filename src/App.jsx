@@ -4,6 +4,7 @@ import Header from "../Components/header";
 import taj from "../Jsons/tojiki.json";
 import taj9 from "../Jsons/tojikitest9.json";
 import slog from "../Jsons/sotsologiya.json";
+import chem from"../Jsons/chemistry_questions.json"
 import Footer from "../Components/footer";
 import "../src/Styles/exam.css";
 
@@ -13,13 +14,16 @@ function App(){
 const datafile={
   taj,
   taj9,
-  slog
+  slog,
+  chem
 }
 return (
 <>
+
 <Header category={setdata} setNum={setNum}/>
-<Example data={datafile[data1]} current={num} setCurrent={setNum}/>
+<Example data={datafile[data1]} current={num} setCurrent={setNum}/> 
 <Footer/>
+
 </>
   )
 }
