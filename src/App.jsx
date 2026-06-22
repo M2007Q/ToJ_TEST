@@ -4,10 +4,10 @@ import Header from "../Components/header";
 import taj from "../Jsons/tojiki.json";
 import taj9 from "../Jsons/tojikitest9.json";
 import slog from "../Jsons/sotsologiya.json";
-import chem from"../Jsons/chemistry_questions.json"
-import Footer from "../Components/footer";
+import chem from"../Jsons/chemistry_questions.json";
+import bio from "../Jsons/biology_questions_fixed.json"
 import "../src/Styles/exam.css";
-import ColorPair from "../Components/colorpair";
+
 
 function App(){
   const[data1, setdata]=useState("taj");
@@ -16,15 +16,15 @@ const datafile={
   taj,
   taj9,
   slog,
-  chem
+  chem,
+  bio
 }
 return (
 <>
 
 <Header category={setdata} setNum={setNum}/>
 <Example data={datafile[data1]} current={num} setCurrent={setNum}/> 
-{/* <ColorPair/> */}
-{/* <Footer/> */}
+
 
 </>
   )
