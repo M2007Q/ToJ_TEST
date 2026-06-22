@@ -7,6 +7,7 @@ import slog from "../Jsons/sotsologiya.json";
 import chem from"../Jsons/chemistry_questions.json"
 import Footer from "../Components/footer";
 import "../src/Styles/exam.css";
+import ColorPair from "../Components/colorpair";
 
 function App(){
   const[data1, setdata]=useState("taj");
@@ -22,7 +23,8 @@ return (
 
 <Header category={setdata} setNum={setNum}/>
 <Example data={datafile[data1]} current={num} setCurrent={setNum}/> 
-<Footer/>
+{/* <ColorPair/> */}
+{/* <Footer/> */}
 
 </>
   )
