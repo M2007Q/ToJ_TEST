@@ -23,7 +23,8 @@ if(select==='random')
 },[select]);
 //Fucktions;)
 function MaketRandom(){
-    let num= Math.floor(Math.random()* data.length);
+    let num= Math.floor(Math.random()* data.length );
+    
     setCurrent(num);
 }
 function Aralash(array){

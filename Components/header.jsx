@@ -12,7 +12,8 @@ return(
     <option value="taj9">Тажикский(9 клас)</option>
     <option value="chem">Химия(9 клас)</option>
     <option value="bio">Биология(9 клас)</option> */}
-    <option value="cloud">Cloud Tecnology</option>
+    <option value="cloud">Технологияи абри</option>
+    <option value="economy">Назарияи Иктисоди</option>
    </select>
    </div>
     );

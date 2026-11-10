@@ -7,6 +7,7 @@ import slog from "../Jsons/sotsologiya.json";
 import chem from"../Jsons/chemistry_questions.json";
 import bio from "../Jsons/biology_questions_fixed.json";
 import cloud from "../Jsons/cloud_technology_tests.json";
+import economy from "../Jsons/economics_theory_tests.json";
 import "../src/Styles/exam.css";
 function App(){
   const[data1, setdata]=useState("cloud");
@@ -17,7 +18,8 @@ const datafile={
   // slog,
   // chem,
   // bio,
-  cloud
+  cloud,
+  economy
 }
 return (
 <>
