@@ -79,7 +79,7 @@ function Check(eve){
        <button onClick={()=>setCurrent(current+1)}  disabled={current===data.length-1? true :false}>➡</button>
       </div>
     </div>
-    <table border="1px" style={{borderCollapse:"collapse", width:"70vw", fontWeight:"bolder"}}>
+    <table border="1px" style={{borderCollapse:"collapse", width:"70vw", fontWeight:"bolder",color:'#f4e2e2d6'}}>
     <thead>
         <tr>
             <th>Правильно</th>
